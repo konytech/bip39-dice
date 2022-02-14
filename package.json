@@ -1,0 +1,18 @@
+{
+  "name": "bip39-dice",
+  "version": "1.0.0",
+  "description": "Generate a BIP39 mnemonic using a coin and a dice",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "print-table": "tsc && node dist/matching-table.js"
+  },
+  "author": "KonyTech",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "17.0.18",
+    "bip39": "3.0.4",
+    "ts-node": "10.5.0",
+    "tslib": "2.3.1",
+    "typescript": "4.5.5"
+  }
+}
